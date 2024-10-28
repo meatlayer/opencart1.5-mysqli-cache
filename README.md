@@ -6,6 +6,8 @@ OpenCart 1.5.x compatible!
 1. Copy mysqliz.php file into the /system/library/database
 2. Change /config.php file only:
 
-  define('DB_DRIVER', 'mysqliz');
-  define('DB_CACHED_EXPIRE', 300);
-  
+```
+define('DB_DRIVER', 'mysqliz');
+define('DB_CACHED_EXPIRE', 300);
+```
+
